@@ -43,7 +43,7 @@ router.get('/', async (req, res) => {
 });
 
 // @route  GET api/reports/:id
-// @desc   get all  reports
+// @desc   get   report by ID
 // @access PUBLIC
 
 router.get('/:id', async (req, res) => {
@@ -58,7 +58,7 @@ router.get('/:id', async (req, res) => {
 });
 
 // @route  POST api/reports
-// @desc   register new reports
+// @desc   register new report
 // @access PUBLIC
 
 router.post('/', async (req, res) => {
